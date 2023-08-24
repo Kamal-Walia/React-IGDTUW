@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Images from './sample'
 
-function App() {
+function App({counter, name}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div style={{display:'flex', maxWidth: 1000, flexWrap: 'wrap', paddingLeft: '25%', paddingRight: '25%'}}>
+      Hello From Functional Component {counter} {name}
+      {/* {
+        Images.map(item => {
+          return (
+            <div style={{padding:10, borderWidth:1, borderStyle:'groove', margin:6}}>
+              <img src={item["product-image-url"]} height={250} width={250} />
+              </div>
+          )
+        }
+        )
+      } */}
+       </div>
+
   );
 }
 
 export default App;
+
