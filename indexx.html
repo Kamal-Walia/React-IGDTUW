@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter Example</title>
+</head>
+<body>
+    <h1>Counter App</h1>
+    <p>Count: <span id="count">0</span></p>
+    <button id="updateButton">Update Count</button>
+
+    <script>
+        // Get references to the elements
+        const countElement = document.getElementById('count');
+        const updateButton = document.getElementById('updateButton');
+
+        // Initialize the counter
+        let count = 0;
+
+        // Update the count when the button is clicked
+        updateButton.addEventListener('click', () => {
+            count++;
+            countElement.textContent = count;
+        });
+    </script>
+</body>
+</html>
