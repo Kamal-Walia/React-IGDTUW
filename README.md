@@ -1,35 +1,35 @@
-Topics covered till 24 Aug 2023:
+**Topics covered till 24 Aug 2023:**
 
-React Intro 
+- React Intro 
 
-Install node
+- Install node
 
-React vs. Vue vs. Angular
+- React vs. Vue vs. Angular
 
-Install Create React app
+- Install Create React app
 
-Understanding JSX 
+- Understanding JSX 
 
-Understanding structure of CRA - Basic intro to Webpack and Babel
+- Understanding structure of CRA - Basic intro to Webpack and Babel
 
+- Virtual Dom
 
-Virtual Dom
+- States & props
 
-States & props
+- Named vs. Default export
 
-Named vs. Default export
+- Class components vs. functional components
 
-Class components vs. functional components
+- Event handling 
 
-Event handling 
+- React Lifecycle
 
-React Lifecycle
+- Tree Reconciliation example:- https://jscomplete.com/playground/rgs1.8
 
-Tree Reconciliation example:- https://jscomplete.com/playground/rgs1.8
+**Topics covered on 26 Aug 2023**
 
-Topics covered on 26 Aug 2023
-Conditional Rendering
+- Conditional Rendering
 
-HighOrder components
+- HighOrder components
 
 
