@@ -1,4 +1,4 @@
-**Topics covered till 24 Aug 2023:**
+**Topics covered till 24 Aug 2023 (Till 3rd session):**
 
 - React Intro 
 
@@ -6,7 +6,7 @@
 
 - React vs. Vue vs. Angular
 
-- Install Create React app
+- Install the Create React app
 
 - Understanding JSX 
 
@@ -26,7 +26,7 @@
 
 - Tree Reconciliation example:- https://jscomplete.com/playground/rgs1.8
 
-**Topics covered on 26 Aug 2023**
+**Topics covered on 26 Aug 2023 (4th Session)**
 
 - Conditional Rendering
 
