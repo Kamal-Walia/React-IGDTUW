@@ -27,4 +27,9 @@ React Lifecycle
 
 Tree Reconciliation example:- https://jscomplete.com/playground/rgs1.8
 
+Topics covered on 26 Aug 2023
+Conditional Rendering
+
+HighOrder components
+
 

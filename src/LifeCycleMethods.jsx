@@ -10,6 +10,12 @@ class LifeCycleMethods extends Component {
         console.log('Hello From componentDidMount');
     }
 
+    shouldComponentUpdate (prevPros) {
+        if(prevPros.name === this.props.name){
+            return false
+        }
+    }
+
     componentWillUnmount() {
         console.log('Hello From componentWillUnmount');
     }
