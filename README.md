@@ -40,3 +40,5 @@
 
 - Hooks(useState and useEffect)
 
+- Pure Component
+
