@@ -5,6 +5,8 @@ import LifeCycleMethods from './LifeCycleMethods'
 import App from "./App";
 import CounterButton from "./CounterButton";
 import Counter from "./Counter";
+import PureComponent from "./PureComponent";
+import HooksComponent from "./HooksComponent";
 
 let a = 0;
 class ClassComponent extends React.Component {
@@ -17,7 +19,7 @@ class ClassComponent extends React.Component {
     }
 
     updateCounter = () => {
-            this.setState({count: this.state.count+1})
+            this.setState({counts: this.state.count+1})
     }
 
     showComponent = () => {
@@ -47,9 +49,13 @@ class ClassComponent extends React.Component {
             <div style={{backgroundColor:'yellow'}}>
                 {/* <Counter />
                 <CounterButton /> */}
-                {/* Hello From Class Component, current count {this.state.count} */}
-                {this.state.name === 'Kamal' ? null : <LifeCycleMethods name={this.state.name}/>}
+                {/* Hello From Class Component, current count {this.state.count}
+                <LifeCycleMethods name={this.state.name} />
                 <button onClick={this.updateCounter}>Increase Count</button>
+
+                <PureComponent name={this.state.name} nameArray={[]}/> */}
+
+                <HooksComponent />
                {/* Count is {this.state.count}
                {/* A is {a} */}
             {/* <button onClick={this.updateCounter}>Increase Count</button>

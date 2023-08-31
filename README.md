@@ -32,4 +32,11 @@
 
 - HighOrder components
 
+**Topics covered on 31 Aug 2023 (5th Session)**
+
+- Understanding NPM
+
+- Adding styles in React
+
+- Hooks(useState and useEffect)
 

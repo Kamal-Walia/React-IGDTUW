@@ -3,26 +3,26 @@ import React, {Component} from 'react';
 class LifeCycleMethods extends Component {
     constructor(){
         super();
-        console.log('Hello From Constructor');
+        // console.log('Hello From Constructor');
     }
 
-    componentDidMount() {
-        console.log('Hello From componentDidMount');
-    }
+    // componentDidMount() {
+    //     console.log('Hello From componentDidMount');
+    // }
 
-    shouldComponentUpdate (prevPros) {
-        if(prevPros.name === this.props.name){
+    shouldComponentUpdate (nextProps, nextState) {
+        if(nextProps.name === this.props.name){
             return false
         }
     }
 
-    componentWillUnmount() {
-        console.log('Hello From componentWillUnmount');
-    }
+    // componentWillUnmount() {
+    //     console.log('Hello From componentWillUnmount');
+    // }
 
-    componentDidUpdate(){
-        console.log('Hello from componentDidUpdate');
-    }
+    // componentDidUpdate(){
+    //     console.log('Hello from componentDidUpdate');
+    // }
 
     render() {
         console.log('Hello From render')
