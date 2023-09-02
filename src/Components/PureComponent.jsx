@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./PureComponent-style";
+import styles from "./styles/PureComponent-style";
 import './purecomponentStyles.css'
 
 class PureComponent extends React.PureComponent {
