@@ -42,3 +42,16 @@
 
 - Pure Component
 
+**Topics covered on 02 Sept 2023 (6th Session)**
+
+- ComponentWillUnmount using useEffect
+
+- React Routing
+
+- React Router
+
+- Links
+
+- Routing Params
+
+- Handing 404 - Page not found
