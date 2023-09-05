@@ -55,3 +55,9 @@
 - Routing Params
 
 - Handing 404 - Page not found
+
+**Topics covered on 05 Sept 2023 (7th Session)**
+
+- Nested Routes
+
+- Context

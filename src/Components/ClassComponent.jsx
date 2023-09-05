@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import any from './sample';
 import {MyName} from './sample';
 import LifeCycleMethods from './LifeCycleMethods'
@@ -7,6 +7,7 @@ import Counter from "./Counter";
 import PureComponent from "./PureComponent";
 import HooksComponent from "./HooksComponent";
 import withRouter from "./HoC/withRouter";
+import UncontrolledComponent, { UncontrolledFunctionalComponent } from "./UncontrolledComponent";
 
 let a = 0;
 class ClassComponent extends React.Component {
@@ -56,6 +57,8 @@ class ClassComponent extends React.Component {
                 this.setState({name: e.target.value })}} />
                     <button onClick={() => navigate(`/hooks?name=${this.state.name}`)}>Navigate to Hooks Component</button>
              </> }
+             <UncontrolledComponent value={this.state.name}/>
+             <UncontrolledFunctionalComponent />
              </div>
         )
                 
