@@ -63,3 +63,9 @@
 - Controlled VS UnControlled Components
 
 - Context
+
+**Topics covered on 08 Sept 2023 (8th Session)**
+
+- React Context API - useContext
+
+- Redux - Concepts
