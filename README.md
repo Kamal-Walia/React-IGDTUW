@@ -69,3 +69,16 @@
 - React Context API - useContext
 
 - Redux - Concepts
+
+**Topics covered on 09 Sept 2023 (9th Session)**
+
+- Redux Implementation
+
+- useSelector, useDispatch
+
+
+**Topics covered on 10 Sept 2023 (10th Session)**
+
+- Redux-Thunk
+
+- API calling using fetch and axios
